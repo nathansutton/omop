@@ -31,7 +31,7 @@ docker-compose run postgres bash
 
 From the database container's shell, interact with the database with the psql client.
 ```
-psql --host=postgres --username=admin --dbname=athena
+psql --host=postgres --username=admin --dbname=cdm
 ```
 
 Run all flyway migrations in your database
