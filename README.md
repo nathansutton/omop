@@ -22,7 +22,7 @@ We require an additional directory in _/volumes/data_ that is outside of version
 ### database
 You will have a local PostgreSQL running inside a container.  The database is called 'cdm' and the username / password for your local instance is just 'admin'.
 
-#### usage
+### usage
 
 Drop into database container's shell.
 ```
