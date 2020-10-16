@@ -16,7 +16,7 @@ services:
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=admin
-      - POSTGRES_DB=athena
+      - POSTGRES_DB=cdm
     volumes:
       - $PWD/volumes/data:/var/lib/postgresql/data
       - $PWD/volumes/cdm:/opt
