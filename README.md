@@ -1,5 +1,7 @@
 ## OMOP - Common Data Model
 
+[![YourActionName Actions Status](https://github.com/nathansutton/omop/workflows/CI/badge.svg)](https://github.com/nathansyttin/omop/actions)
+
 This repository modifies the [common data model](https://github.com/OHDSI/CommonDataModel/tree/master/PostgreSQL) developed by the [Observational Health Data Sciences and Informatics](https://www.ohdsi.org/) program.  
 
 ### tl;dr
