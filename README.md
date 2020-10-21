@@ -15,10 +15,8 @@ docker-compose up
 ### flyway
 We migrated the PostgreSQL version of the common data model to [flyway](https://flywaydb.org/).  This structure make it simple to create databases reliably from source control.  We chose to represent each table as a [versioned migration](https://flywaydb.org/documentation/concepts/migrations#versioned-migrations) with a four digit numeric sequence.  This means that each script will run once upon initialization (__docker-compose up__) If you were to run the migrate command manually, it will skip the code that it has already run.
 
-### setup
-We require an additional directory in _/volumes/data_ that is outside of version control for your PostgreSQL database.  It is persisted here so you do not lose your work when you shut down the container.  You can simply execute the init.sh script to create this directory if you don't want to do it yourself.
-```
-./init.sh
+### persistent data
+_/volumes/data_ will hold the data for your PostgreSQL database.  It is persisted here so you do not lose your work when you shut down the container.
 ```
 
 ### database
