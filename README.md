@@ -17,7 +17,6 @@ We migrated the PostgreSQL version of the common data model to [flyway](https://
 
 ### persistent data
 _/volumes/data_ will hold the data for your PostgreSQL database.  It is persisted here so you do not lose your work when you shut down the container.
-```
 
 ### database
 You will have a local PostgreSQL running inside a container.  The database is called 'cdm' and the username / password for your local instance is just 'admin'.
